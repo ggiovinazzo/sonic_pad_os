@@ -12,7 +12,7 @@ PKG_VERSION:=1.9.2
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=https://fossies.org/linux/misc/
+PKG_SOURCE_URL:=https://codeload.github.com/lz4/lz4/tar.gz/v$(PKG_VERSION)?
 PKG_MD5SUM:=3898c56c82fb3d9455aefd48db48eaad
 
 HOST_FIXUP:=autoreconf
