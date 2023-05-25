@@ -18,8 +18,11 @@ define Package/$(PKG_NAME)
   CATEGORY:=Multimedia
   DEPENDS:=+libstdcpp
   TITLE:=LIVE555 Streaming Media
-  URL:=http://www.live555.com/liveMedia/
+  URL:=http://134.100.28.207/files/src/live555/
 endef
+
+#OLD URL
+#  URL:=http://www.live555.com/liveMedia/
 
 define Package/$(PKG_NAME)/description
   This code forms a set of C++ libraries for multimedia streaming,
